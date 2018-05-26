@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>ElmahLogProvider</AssemblyName>
+    <AssemblyName>ElmahCoreLogProvider</AssemblyName>
     <RootNamespace>Hangfire.Logging</RootNamespace>
   </PropertyGroup>
 

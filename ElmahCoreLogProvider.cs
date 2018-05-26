@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Hangfire.Logging
 {
-    public class ElmahLogProvider : ILogProvider
+    public class ElmahCoreLogProvider : ILogProvider
     {
         private static bool _providerIsAvailableOverride = true;
 
@@ -17,12 +17,12 @@ namespace Hangfire.Logging
         private readonly LogLevel _minLevel;
         private readonly Func<object> _getErrorLogDelegate;
 
-        public ElmahLogProvider()
+        public ElmahCoreLogProvider()
             : this(DefaultMinLevel)
         {
         }
 
-        public ElmahLogProvider(LogLevel minLevel)
+        public ElmahCoreLogProvider(LogLevel minLevel)
         {
             if (!IsLoggerAvailable())
             {
