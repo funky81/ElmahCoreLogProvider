@@ -4,14 +4,17 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>ElmahCoreLogProvider</AssemblyName>
     <RootNamespace>Hangfire.Logging</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Hangfire.Redis.StackExchange.ElmahCoreLogProvider</PackageId>
+    <Authors>Reski Rukmantiyo</Authors>
+    <Product>Hangfire.ElmahCoreLogProvider</Product>
+    <PackageIconUrl>https://raw.githubusercontent.com/funky81/ElmahCoreLogProvider/master/nuget.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/funky81/ElmahCoreLogProvider</PackageProjectUrl>
+    <Copyright>Copyright @2018 EBAYS</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="HangFire.Redis.StackExchange" Version="1.7.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ElmahCore\ElmahCore\ElmahCore.csproj" />
   </ItemGroup>
 
 </Project>
