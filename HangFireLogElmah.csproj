@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ElmahLogProvider</AssemblyName>
+    <RootNamespace>Hangfire.Logging</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HangFire.Redis.StackExchange" Version="1.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElmahCore\ElmahCore\ElmahCore.csproj" />
+  </ItemGroup>
+
+</Project>
