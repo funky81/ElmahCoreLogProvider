@@ -18,8 +18,4 @@
     <PackageReference Include="Hangfire.Redis.StackExchange.Alt" Version="1.8.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ElmahCore\ElmahCore\ElmahCore.csproj" />
-  </ItemGroup>
-
 </Project>
